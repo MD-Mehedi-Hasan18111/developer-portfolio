@@ -53,6 +53,7 @@ h1{
     background-position: right;
     background-repeat: no-repeat;
     display: flex;
+    margin-bottom: 120px;
 }
 
 .resume-btn{
@@ -64,4 +65,50 @@ h1{
     background: linear-gradient(to left, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 15px 40px;
     border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.experience-area{
+    background-image: url('img/exp-bg.png');
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.card{
+    width: 40%;
+    box-shadow: 0 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    
+}
+
+.card h2{
+    font-size: 35px;
+}
+
+.card p{
+    color: #34495e;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#border-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+#border-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
