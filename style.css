@@ -1,0 +1,47 @@
+body{
+    font-family: popins, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.orange{
+    color: orange;
+}
+
+.header{
+    background-image: url('img/top-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 6%;
+}
+
+.half-width img{
+    width: 80%;
+}
+
+.half-width p{
+    color: #34495e;
+    font-size: 18px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.hire-btn{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    background: #ff9966;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 15px 40px;
+    border-radius: 5px;
+}
